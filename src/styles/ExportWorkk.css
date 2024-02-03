@@ -7,6 +7,13 @@
   right: 200px;
   top: 10px;
 }
+
+@media (max-width: 600px) {
+  .export-container {
+    top: 50px; /* Adjust the value as needed */
+    right: 80%;
+  }
+}
 .ben {
   background-color: #a9a9a9;
   padding: 20px;

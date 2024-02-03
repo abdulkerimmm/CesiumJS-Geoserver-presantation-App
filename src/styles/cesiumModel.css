@@ -8,6 +8,12 @@
   transition: color 0.3s ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .menu-toggle-btn {
+    top: 50px; /* Adjust the value as needed */
+  }
+}
+
 .menu-toggle-btn:hover {
   color: #007bff;
 }

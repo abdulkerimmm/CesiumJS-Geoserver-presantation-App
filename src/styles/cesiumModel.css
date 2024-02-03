@@ -1,0 +1,107 @@
+.menu-toggle-btn {
+  position: fixed;
+  color: #a9a9a9;
+  top: 10px;
+  left: 270px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-toggle-btn:hover {
+  color: #007bff;
+}
+
+.menu-container {
+  position: fixed;
+  top: 45px;
+  left: 20px;
+  z-index: 1000;
+  background: #f8f9fa; /* Light background color */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  width: 250px; /* Adjust the width as needed */
+}
+
+.menu-title {
+  font-size: 24px; /* Larger font size */
+  color: black; /* Accent color */
+  margin-bottom: 10px; /* Increased margin bottom */
+  border-bottom: 2px solid red;
+}
+
+.menu-section {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Increased gap between sections */
+}
+
+.menu-section h3 {
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 10px; /* Adjusted margin */
+  color: #333; /* Darker text color */
+}
+
+.menu-section select,
+.menu-section button,
+.menu-section input {
+  padding: 7px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: #ffffff;
+  margin-bottom: 10px; /* Increased margin bottom */
+}
+
+.menu-section select:focus,
+.menu-section button:focus,
+.menu-section input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.menu-section button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.menu-section button:hover {
+  background-color: #0056b3;
+}
+
+.form-row {
+  margin-bottom: 15px; /* Increased margin bottom */
+}
+
+.menu-section-delete {
+  max-height: 150px; /* Set a maximum height for the delete model section */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.menu-section-delete div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px; /* Adjusted margin for better spacing */
+}
+
+.menu-section-delete div button {
+  cursor: pointer;
+  background-color: #dc3545; /* Red color */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.menu-section-delete div button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

@@ -1,0 +1,106 @@
+#beautifulInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: #ffffff;
+  /* margin: 10px; */
+  margin-bottom: 10px;
+}
+
+/* Focused input styles */
+#beautifulInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px #007bff;
+  border: 2px solid #007bff;
+}
+
+/* Button styles */
+.button {
+  background-color: #808080;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Active button styles */
+.button.active {
+  border: 2px solid red;
+}
+
+/* LayerMap component container */
+.LayerMap {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+/* LayerMenu styles */
+.LayerMenu {
+  display: flex;
+  flex-direction: column;
+  background: #a9a9a9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  position: relative;
+  top: 6px;
+  right: 100px;
+}
+
+/* Presentation App title styles */
+.LayerMenu h1 {
+  font-size: 20px;
+  border-bottom: 2px solid red;
+}
+
+/* Layer visibility section styles */
+.LayerVisibility {
+}
+.LayerVisibility h3 {
+  margin-bottom: 7px;
+}
+
+/* Layer visibility button styles */
+.LayerVisibility button {
+  background-color: #808080;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Layer visibility active button styles */
+.LayerVisibility button.active {
+  border: 2px solid red;
+}
+
+/* Layer change section styles */
+.LayerChange {
+  display: flex;
+  flex-direction: column;
+}
+
+.LayerChange h3 {
+  margin-bottom: 7px;
+}
+
+/* Layer change button styles */
+.LayerChange button {
+  background-color: #808080;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

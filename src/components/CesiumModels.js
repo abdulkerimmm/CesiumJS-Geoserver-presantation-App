@@ -39,7 +39,7 @@ const CesiumModels = ({ viewerRef }) => {
     const loadModel = async () => {
       try {
         Cesium.Ion.defaultAccessToken =
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmMmU2M2FkYS00MTNmLTQzYmYtYjZiNC1mMWNmZTMzMmQ0Y2MiLCJpZCI6MTg0NTI0LCJpYXQiOjE3MDY4MTkwODB9.tb88m2UEYUk-zIuh9SbAHH2_agWFAx-OYrfFxeLixvM";
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMzNjMDExYS02NDRiLTQwNDgtYTBjYS00ODg5MzBkZGQ0OTUiLCJpZCI6MTg0NTI0LCJpYXQiOjE3Mjk4MDE2MTB9.TkqLK6RKYYt1wV9ojJLAs5XWEogGdcfU87TcB8BET3M";
 
         const index = models.findIndex(
           (item) => item.id === parseInt(selectedModel)

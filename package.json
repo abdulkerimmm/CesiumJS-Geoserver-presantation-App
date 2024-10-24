@@ -23,7 +23,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "browserify-zlib": "^0.2.0",
-    "cesium": "^1.114.0",
+    "cesium": "^1.122.0",
     "cesium-draw-custom": "^1.0.3",
     "copy-webpack-plugin": "^11.0.0",
     "dom-to-image": "^2.6.0",
